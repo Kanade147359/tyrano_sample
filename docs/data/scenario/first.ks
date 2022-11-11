@@ -129,10 +129,26 @@
 
 [cm]
 
-[l][r]
-
-[jump target=*tag_left]
+日記を読み過去を振り返る[l][r]
+もともと人間だったことはなかったようだ[l][r]
+[HAPPY END] [l][r]
+[jump target=*start]
 [s]
+
+*tag_write
+
+[cm]
+
+自分が人間だったことを書き記した。[l][r]
+体に変化はないようだ[l][r]
+[True END]  [l][r]
+[jump target=*start]
+[s]
+
+
+
+
+
 
 
 
