@@ -66,14 +66,73 @@
 とても楽しかった[l][r]
 
 [jump target=*start]
+[s]
 
 *tag_dont
 
 [cm]
 
-[bg storage=鳥.jpg time=500]
+あの朧げな少女は誰だったんだろう[l][r]
 
+[jump target=*start]
+[s]
+
+*tag_in
+
+[cm]
+
+15mlのモルガン、3粒のピスタチオ[l][r]
+
+[jump target=*start]
+[s]
+
+*tag_out
+
+[cm]
+
+ああ怖い怖い[l][r]
+
+[jump target=*start]
+[s]
+
+*tag_g
+
+[cm]
+
+いろはにほえど[l][r]
+
+[jump target=*tag_right]
+[s]
+
+
+*tag_k
+
+[cm]
+
+立つ鳥跡を濁さず[l][r]
+
+[jump target=*tag_left]
+[s]
+
+
+*tag_k
+
+[cm]
+
+立つ鳥跡を濁さず[l][r]
+
+[jump target=*tag_left]
+[s]
+
+
+*tag_nikki
+
+[cm]
 
 [l][r]
 
-[jump target=*start]
+[jump target=*tag_left]
+[s]
+
+
+
