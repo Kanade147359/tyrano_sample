@@ -131,7 +131,7 @@
 
 日記を読み過去を振り返る[l][r]
 もともと人間だったことはなかったようだ[l][r]
-[ HAPPY END ] [l][cm]
+ HAPPY END  [l][cm]
 [jump target=*start]
 
 *tag_write
@@ -140,7 +140,7 @@
 
 自分が人間だったことを書き記した。[l][r]
 体に変化はないようだ[l][r]
-[ True END ]  [l][cm]
+ True END   [l][cm]
 [jump target=*start]
 
 
