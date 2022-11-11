@@ -1,46 +1,79 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="show room"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
+[bg storage=鳥.jpg time=500]
 
-「走るか寝るかするメロス」[l][r]
+鳥になりました[l][r]
 
-メロスは激怒した。[l][r]
-
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_right] → 右 [endlink][r]
+[link target=*tag_left] →左 [endlink][r]
+[link target=*tag_up] →上 [endlink][r]
+[link target=*tag_down] →下 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_right
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=pexels-fidan-nazim-qizi-13459052.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+きれいな少女だ[l][r]
+[link target=*tag_speak] →話しかける [endlink][r]
+[link target=*tag_dont] →俯く [endlink][r]
+[s]
 
-【 BAD END 】[l][cm]
+*tag_left
+
+[bg storage=バー.jpg time=500]
+
+[cm]
+アングラなバーだ。。。[l][r]
+[link target=*tag_in] →入る [endlink][r]
+[link target=*tag_out] →入ることが出来ない [endlink][r]
+[s]
+
+*tag_up
+
+[bg storage=ボクシング.jpg time=500]
+
+[cm]
+サンドバックを叩く人[l][r]
+[link target=*tag_g] →打撃を受ける [endlink][r]
+[link target=*tag_k] →脚撃を受ける [endlink][r]
+[s]
+
+*tag_down
+
+[cm]
+
+[bg storage=日記.jpg time=500]
+
+自分の日記だ[l][r]
+[link target=*tag_nikki] →話しかける [endlink][r]
+[link target=*tag_write] →書く [endlink][r]
+[s]
+
+*tag_speak
+
+[cm]
+
+[bg storage=鳥.jpg time=500]
+
+
+とても楽しかった[l][r]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_dont
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+[bg storage=鳥.jpg time=500]
+
+
+[l][r]
 
 [jump target=*start]
